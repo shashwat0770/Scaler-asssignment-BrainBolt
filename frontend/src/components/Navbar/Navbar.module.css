@@ -1,0 +1,109 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--space-sm) var(--space-lg);
+    background: var(--bg-secondary);
+    border-bottom: 1px solid var(--border-color);
+    position: sticky;
+    top: 0;
+    z-index: var(--z-sticky);
+    backdrop-filter: blur(12px);
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    text-decoration: none;
+    color: var(--text-primary);
+}
+
+.logo {
+    font-size: var(--font-size-xl);
+}
+
+.brandName {
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-bold);
+    background: linear-gradient(135deg, var(--color-primary-light), var(--color-secondary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
+}
+
+.link {
+    padding: var(--space-xs) var(--space-md);
+    border-radius: var(--radius-md);
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-medium);
+    transition: all var(--transition-fast);
+}
+
+.link:hover {
+    color: var(--text-primary);
+    background: var(--bg-card);
+}
+
+.active {
+    color: var(--color-primary-light) !important;
+    background: rgba(108, 92, 231, 0.1);
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+}
+
+.userInfo {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    color: var(--text-secondary);
+    font-size: var(--font-size-sm);
+}
+
+.avatar {
+    width: 28px;
+    height: 28px;
+    border-radius: var(--radius-full);
+    background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-xs);
+}
+
+@media (max-width: 768px) {
+    .nav {
+        padding: var(--space-sm);
+    }
+
+    .links {
+        gap: 0;
+    }
+
+    .link {
+        padding: var(--space-xs) var(--space-sm);
+        font-size: var(--font-size-xs);
+    }
+
+    .brandName {
+        font-size: var(--font-size-md);
+    }
+
+    .userInfo span:last-child {
+        display: none;
+    }
+}

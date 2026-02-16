@@ -1,0 +1,114 @@
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-sm);
+    padding: var(--space-sm) var(--space-lg);
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-semibold);
+    line-height: var(--line-height-tight);
+    border: 2px solid transparent;
+    border-radius: var(--radius-lg);
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    white-space: nowrap;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.btn::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, transparent 50%);
+    opacity: 0;
+    transition: opacity var(--transition-fast);
+}
+
+.btn:not(:disabled):hover::after {
+    opacity: 1;
+}
+
+/* Variants */
+.primary {
+    background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
+    color: #fff;
+    box-shadow: var(--shadow-md);
+}
+
+.primary:not(:disabled):hover {
+    box-shadow: var(--shadow-glow);
+    transform: translateY(-1px);
+}
+
+.secondary {
+    background: transparent;
+    color: var(--color-primary-light);
+    border-color: var(--color-primary);
+}
+
+.secondary:not(:disabled):hover {
+    background: var(--color-primary);
+    color: #fff;
+}
+
+.danger {
+    background: linear-gradient(135deg, var(--color-danger), #e05555);
+    color: #fff;
+}
+
+.danger:not(:disabled):hover {
+    box-shadow: 0 0 20px rgba(255, 118, 117, 0.3);
+    transform: translateY(-1px);
+}
+
+.ghost {
+    background: transparent;
+    color: var(--text-secondary);
+}
+
+.ghost:not(:disabled):hover {
+    background: var(--bg-card);
+    color: var(--text-primary);
+}
+
+/* Sizes */
+.sm {
+    padding: var(--space-xs) var(--space-md);
+    font-size: var(--font-size-sm);
+}
+
+.lg {
+    padding: var(--space-md) var(--space-xl);
+    font-size: var(--font-size-lg);
+}
+
+.fullWidth {
+    width: 100%;
+}
+
+.loading {
+    color: transparent !important;
+}
+
+.spinner {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-top-color: #fff;
+    border-radius: 50%;
+    animation: spin 0.6s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
