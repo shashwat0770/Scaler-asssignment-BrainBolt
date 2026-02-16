@@ -28,7 +28,7 @@ This starts **all services**:
 <br>
 <br>
 
-📸 Screenshots
+<h1>📸 Screenshots</h1>
 🏠 Login / Registration Page
 
 Add screenshot here
