@@ -1,4 +1,4 @@
-[# BrainBolt – Adaptive Infinite Quiz Platform]
+<h1>[# BrainBolt – Adaptive Infinite Quiz Platform]</h1>
 
 An adaptive infinite quiz platform that serves one question at a time. Difficulty increases after correct answers and decreases after wrong answers using a momentum-based algorithm.
 
