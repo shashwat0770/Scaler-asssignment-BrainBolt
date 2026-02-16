@@ -1,4 +1,4 @@
-# BrainBolt – Adaptive Infinite Quiz Platform
+[# BrainBolt – Adaptive Infinite Quiz Platform
 
 An adaptive infinite quiz platform that serves one question at a time. Difficulty increases after correct answers and decreases after wrong answers using a momentum-based algorithm.
 
@@ -23,6 +23,64 @@ Frontend (Next.js 14) → Backend API (Express/TypeScript) → MongoDB Atlas
                                     ↓
                               SSE (real-time leaderboards)
 ```
+
+
+
+📸 Screenshots
+🏠 Login / Registration Page
+
+Add screenshot here
+![Login Page]
+1.<img width="1919" height="1017" alt="Screenshot 2026-02-16 225641" src="https://github.com/user-attachments/assets/e8577c59-456e-45ee-a4b8-04bf36b23849" />
+
+<br>
+<br>
+<br>
+2.<img width="1919" height="1017" alt="Screenshot 2026-02-16 225932" src="https://github.com/user-attachments/assets/78630f36-d7c3-458f-be77-55854c2d669c" />
+<br>
+<br>
+<br>
+
+
+🧠 Quiz Interface (Adaptive Question View)
+
+Add screenshot here
+3.<img width="1919" height="1019" alt="Screenshot 2026-02-16 225938" src="https://github.com/user-attachments/assets/0597ce76-96df-48c9-be8a-f06eed04b315" />
+
+<br>
+<br>
+<br>
+4.<img width="1919" height="1016" alt="Screenshot 2026-02-16 225951" src="https://github.com/user-attachments/assets/754b951a-4248-446d-b856-e8eefe537cfa" />
+<br>
+<br>
+<br>
+5.<img width="1919" height="1020" alt="Screenshot 2026-02-16 225959" src="https://github.com/user-attachments/assets/5ae26df4-de3c-4ff5-99e6-442f34d8fc49" />
+
+<br>
+<br>
+<br>
+
+6.<img width="1919" height="1024" alt="Screenshot 2026-02-16 230006" src="https://github.com/user-attachments/assets/7904e2bd-bb86-4388-8216-7fbd13cf06b6" />
+
+<br>
+<br>
+<br>
+
+7.<img width="1919" height="1014" alt="Screenshot 2026-02-16 230030" src="https://github.com/user-attachments/assets/b83731df-7824-4294-a1c5-49bee0aec3fc" />
+
+📊 User Metrics Dashboard
+
+Add screenshot here
+![Metrics Dashboard](./screenshots/metrics.png)
+
+🏆 Live Leaderboard (SSE)
+
+Add screenshot here
+![Leaderboard](./screenshots/leaderboard.png)
+
+
+
+
 
 ## 📁 Project Structure
 
@@ -121,3 +179,4 @@ See [LLD.md](./LLD.md) for detailed pseudocode and edge case handling.
 | Cache | Redis |
 | Real-time | Server-Sent Events (SSE) |
 | Containerization | Docker, Docker Compose |
+](https://github.com/shashwat0770/Scaler-asssignment-2.git)
