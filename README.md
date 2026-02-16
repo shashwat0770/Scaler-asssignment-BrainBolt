@@ -21,7 +21,7 @@ This starts **all services**:
 
 <h1>Below I have put the demo video explanation of this project Scaler Assignment- BrainBolt , complete frontend , backend and database connectivity</h1>
 
-<h2>Video link :-</h2>
+<h1><b>Video link :-</b></h1>
 
 <h1>https://drive.google.com/file/d/1kxIKqqn6PP3SoGGSVOlJxOelTP0xpUJG/view?usp=drivesdk</h1>
 
