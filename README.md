@@ -1,4 +1,4 @@
-[# BrainBolt – Adaptive Infinite Quiz Platform
+[# BrainBolt – Adaptive Infinite Quiz Platform]
 
 An adaptive infinite quiz platform that serves one question at a time. Difficulty increases after correct answers and decreases after wrong answers using a momentum-based algorithm.
 
@@ -15,6 +15,18 @@ This starts **all services**:
 - **MongoDB**: Atlas cloud (pre-configured)
 
 
+<br>
+<br>
+
+
+<h1>Below I have put the demo video explanation of this project Scaler Assignment- BrainBolt , complete frontend , backend and database connectivity</h1>
+
+<h2>Video link :-</h2>
+
+<h1>https://drive.google.com/file/d/1kxIKqqn6PP3SoGGSVOlJxOelTP0xpUJG/view?usp=drivesdk</h1>
+
+<br>
+<br>
 
 📸 Screenshots
 🏠 Login / Registration Page
