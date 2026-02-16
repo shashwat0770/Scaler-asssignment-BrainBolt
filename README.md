@@ -2,19 +2,6 @@
 
 An adaptive infinite quiz platform that serves one question at a time. Difficulty increases after correct answers and decreases after wrong answers using a momentum-based algorithm.
 
-## 🚀 Quick Start (Single Command)
-
-```bash
-docker-compose up --build
-```
-
-This starts **all services**:
-- **Frontend**: http://localhost:3000 (Next.js)
-- **Backend API**: http://localhost:5000 (Express)
-- **Redis**: localhost:6379 (caching)
-- **MongoDB**: Atlas cloud (pre-configured)
-
-
 <br>
 <br>
 
