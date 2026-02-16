@@ -14,16 +14,6 @@ This starts **all services**:
 - **Redis**: localhost:6379 (caching)
 - **MongoDB**: Atlas cloud (pre-configured)
 
-## 🏗️ Architecture
-
-```
-Frontend (Next.js 14) → Backend API (Express/TypeScript) → MongoDB Atlas
-                                    ↓
-                              Redis Cache
-                                    ↓
-                              SSE (real-time leaderboards)
-```
-
 
 
 📸 Screenshots
