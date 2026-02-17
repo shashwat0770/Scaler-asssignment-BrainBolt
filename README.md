@@ -18,8 +18,9 @@ An adaptive infinite quiz platform that serves one question at a time. Difficult
 <h1>📸 Screenshots</h1>
 🏠 Login / Registration Page
 
-Add screenshot here
-![Login Page]
+
+[Login Page]
+<br>
 1.<img width="1919" height="1017" alt="Screenshot 2026-02-16 225641" src="https://github.com/user-attachments/assets/e8577c59-456e-45ee-a4b8-04bf36b23849" />
 
 <br>
@@ -32,8 +33,8 @@ Add screenshot here
 
 
 🧠 Quiz Interface (Adaptive Question View)
+<br>
 
-Add screenshot here
 3.<img width="1919" height="1019" alt="Screenshot 2026-02-16 225938" src="https://github.com/user-attachments/assets/0597ce76-96df-48c9-be8a-f06eed04b315" />
 
 <br>
@@ -44,6 +45,7 @@ Add screenshot here
 <br>
 <br>
 5.🏆 Live Leaderboard (SSE)
+<br>
 <img width="1919" height="1020" alt="Screenshot 2026-02-16 225959" src="https://github.com/user-attachments/assets/5ae26df4-de3c-4ff5-99e6-442f34d8fc49" />
 
 <br>
@@ -51,6 +53,7 @@ Add screenshot here
 <br>
 
 6.📊 User Metrics Dashboard
+<br>
 <img width="1919" height="1024" alt="Screenshot 2026-02-16 230006" src="https://github.com/user-attachments/assets/7904e2bd-bb86-4388-8216-7fbd13cf06b6" />
 
 <br>
