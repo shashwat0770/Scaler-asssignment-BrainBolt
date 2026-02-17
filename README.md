@@ -32,10 +32,12 @@ An adaptive infinite quiz platform that serves one question at a time. Difficult
 <br>
 
 
-🧠 Quiz Interface (Adaptive Question View)
-<br>
 
-3.<img width="1919" height="1019" alt="Screenshot 2026-02-16 225938" src="https://github.com/user-attachments/assets/0597ce76-96df-48c9-be8a-f06eed04b315" />
+
+
+3.🧠 Quiz Interface (Adaptive Question View)
+<br>
+<img width="1919" height="1019" alt="Screenshot 2026-02-16 225938" src="https://github.com/user-attachments/assets/0597ce76-96df-48c9-be8a-f06eed04b315" />
 
 <br>
 <br>
