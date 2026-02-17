@@ -43,13 +43,15 @@ Add screenshot here
 <br>
 <br>
 <br>
-5.<img width="1919" height="1020" alt="Screenshot 2026-02-16 225959" src="https://github.com/user-attachments/assets/5ae26df4-de3c-4ff5-99e6-442f34d8fc49" />
+5.📊 User Metrics Dashboard
+<img width="1919" height="1020" alt="Screenshot 2026-02-16 225959" src="https://github.com/user-attachments/assets/5ae26df4-de3c-4ff5-99e6-442f34d8fc49" />
 
 <br>
 <br>
 <br>
 
-6.<img width="1919" height="1024" alt="Screenshot 2026-02-16 230006" src="https://github.com/user-attachments/assets/7904e2bd-bb86-4388-8216-7fbd13cf06b6" />
+6.🏆 Live Leaderboard (SSE)
+<img width="1919" height="1024" alt="Screenshot 2026-02-16 230006" src="https://github.com/user-attachments/assets/7904e2bd-bb86-4388-8216-7fbd13cf06b6" />
 
 <br>
 <br>
@@ -57,16 +59,9 @@ Add screenshot here
 
 7.<img width="1919" height="1014" alt="Screenshot 2026-02-16 230030" src="https://github.com/user-attachments/assets/b83731df-7824-4294-a1c5-49bee0aec3fc" />
 
-📊 User Metrics Dashboard
-
-Add screenshot here
-![Metrics Dashboard](./screenshots/metrics.png)
-
-🏆 Live Leaderboard (SSE)
-
-Add screenshot here
-![Leaderboard](./screenshots/leaderboard.png)
-
+<br>
+<br>
+<br>
 
 
 
